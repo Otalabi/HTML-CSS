@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles/main.css" type="text/css">
+    <title>
+        Talabi - lab 04
+    </title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+</head>
+
+<body>
+<header>
+<img src="images/pumpkin.gif" alt="Pumpkin">
+<h1>The Halloween Store</h1>
+    <h2>For the little Goblin in all of us!</h2>
+    <nav id="nav_bar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products/index.html">Product List</a></li>
+            <li><a href="personal.html">Personal</a></li>
+            <li><a href="planning.html">Planning</a></li>
+            <li><a class="current" href="./email.html">Email</a></li>
+        </ul>
+    </nav>
+</header>
+<aside>
+   <nav id="nav_bar_2">
+    <ul>
+        <li><a href="Product/url.html">Props</a></li>
+        <li><a href="Product/url.html">Costumes</a></li>
+        <li><a href="Product/url.html">Special Effects</a></li>
+        <li><a href="Product/url.html">Masks</a></li>
+    </ul>
+       </nav>
+</aside>
+<section id="main">
+<h1>Please enter the following information:</h1>
+    <form name="email_form" action="subscribe.html" method="get">
+        <label for="first name">First Name:</label>
+        <input type="text" name="first name" id="first name" autofocus required><br>
+        <label for="last name">Last Name:</label>
+        <input type="text" name="last name" id="last name" required><br>
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email" required><br>
+        <label for="zip">ZIP Code:</label>
+        <input type="text" name="zip" id="zip" placeholder="Optional but appreciated: 99999" pattern="\d{5}([\-]\d{4})?" title="5 digits"><br>
+        <button type="submit" id="submit" value="Subscribe">Subscribe</button>
+         </form>
+            </section>
+
+    <footer><P>&copy; 2014 Talabi Olaitan</p></footer>
+
+</body>
+</html>
